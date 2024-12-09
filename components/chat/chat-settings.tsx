@@ -67,7 +67,7 @@ export const ChatSettings: FC<ChatSettingsProps> = ({}) => {
   return (
     <Popover>
       <PopoverTrigger>
-        <Button
+        {/* <Button
           ref={buttonRef}
           className="flex items-center space-x-2"
           variant="ghost"
@@ -77,7 +77,7 @@ export const ChatSettings: FC<ChatSettingsProps> = ({}) => {
           </div>
 
           <IconAdjustmentsHorizontal size={28} />
-        </Button>
+        </Button> */}
       </PopoverTrigger>
 
       <PopoverContent
