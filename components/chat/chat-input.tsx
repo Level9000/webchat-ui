@@ -241,7 +241,7 @@ export const ChatInput: FC<ChatInputProps> = ({}) => {
           className="ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring text-md flex w-full resize-none rounded-md border-none bg-transparent p-2 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
           placeholder={t(
             // `Ask anything. Type "@" for assistants, "/" for prompts, "#" for files, and "!" for tools.`
-            `Type your product questions here:`
+            `Select an assistant to begin chatting:`
           )}
           onValueChange={handleInputChange}
           value={userInput}
@@ -264,7 +264,9 @@ export const ChatInput: FC<ChatInputProps> = ({}) => {
             <IconSend
               className={cn(
                 "bg-primary text-secondary rounded p-1",
-                !userInput && "cursor-not-allowed opacity-50"
+                !userInput &&
+                  !selectedAssistant &&
+                  "cursor-not-allowed opacity-50"
               )}
               onClick={() => {
                 if (!userInput) return
