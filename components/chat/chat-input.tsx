@@ -165,7 +165,7 @@ export const ChatInput: FC<ChatInputProps> = ({}) => {
   return (
     <>
       <div className="flex flex-col flex-wrap justify-center gap-2">
-        <ChatFilesDisplay />
+        {/* <ChatFilesDisplay />
 
         {selectedTools &&
           selectedTools.map((tool, index) => (
@@ -186,7 +186,7 @@ export const ChatInput: FC<ChatInputProps> = ({}) => {
                 <div>{tool.name}</div>
               </div>
             </div>
-          ))}
+          ))} */}
 
         {selectedAssistant && (
           <div className="border-primary mx-auto flex w-fit items-center space-x-2 rounded-lg border p-1.5">
