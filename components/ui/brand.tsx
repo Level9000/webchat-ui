@@ -8,10 +8,29 @@ interface BrandProps {
   theme?: "dark" | "light"
 }
 
+// export const Brand: FC<BrandProps> = ({ theme = "dark" }) => {
+//   return (
+//     <Link
+//       className="flex cursor-pointer flex-col items-center hover:opacity-50"
+//       href="https://portfolio.erikwarren.com"
+//       target="_blank"
+//       rel="noopener noreferrer"
+//     >
+//       <div className="mb-2">
+//         <ChatbotUISVG
+//           theme={theme === "dark" ? "dark" : "light"}
+//           scale={0.3}
+//           border-radius={50}
+//         />
+//       </div>
+//     </Link>
+//   )
+// }
+
 export const Brand: FC<BrandProps> = ({ theme = "dark" }) => {
   return (
     <Link
-      className="flex cursor-pointer flex-col items-center hover:opacity-50"
+      className="absolute left-1/2 top-0 flex -translate-x-1/2 cursor-pointer flex-col items-center hover:opacity-50"
       href="https://portfolio.erikwarren.com"
       target="_blank"
       rel="noopener noreferrer"
