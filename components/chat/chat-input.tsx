@@ -269,7 +269,7 @@ export const ChatInput: FC<ChatInputProps> = ({}) => {
                   "cursor-not-allowed opacity-50"
               )}
               onClick={() => {
-                if (!userInput) return
+                if (!userInput && !selectedAssistant) return
 
                 handleSendMessage(userInput, chatMessages, false)
               }}
