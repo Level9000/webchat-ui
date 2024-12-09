@@ -264,12 +264,10 @@ export const ChatInput: FC<ChatInputProps> = ({}) => {
             <IconSend
               className={cn(
                 "bg-primary text-secondary rounded p-1",
-                !userInput &&
-                  !selectedAssistant &&
-                  "cursor-not-allowed opacity-50"
+                !userInput && "cursor-not-allowed opacity-50"
               )}
               onClick={() => {
-                if (!userInput && !selectedAssistant) return
+                if (!userInput) return
 
                 handleSendMessage(userInput, chatMessages, false)
               }}
