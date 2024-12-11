@@ -31,7 +31,7 @@ export const Brand: FC<BrandProps> = ({ theme = "dark" }) => {
   return (
     <Link
       className="absolute left-1/2 top-0 flex -translate-x-1/2 cursor-pointer flex-col items-center hover:opacity-50"
-      href="https://portfolio.erikwarren.com"
+      href="https://www.ownform.ai"
       target="_blank"
       rel="noopener noreferrer"
     >
