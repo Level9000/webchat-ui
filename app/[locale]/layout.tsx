@@ -12,10 +12,10 @@ import { ReactNode } from "react"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
-const APP_NAME = "OWNFORM.ai Chat"
-const APP_DEFAULT_TITLE = "OWNFORM.ai Chat"
-const APP_TITLE_TEMPLATE = "%s - OWNFORM.ai Chat"
-const APP_DESCRIPTION = "OWNFORM.ai Chat PWA!"
+const APP_NAME = "Small Machines Chat"
+const APP_DEFAULT_TITLE = "Small Machines Chat"
+const APP_TITLE_TEMPLATE = "%s - Small Machines Chat"
+const APP_DESCRIPTION = "Small Machines Chat PWA!"
 
 interface RootLayoutProps {
   children: ReactNode

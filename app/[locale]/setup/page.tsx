@@ -163,7 +163,7 @@ export default function SetupPage() {
           <StepContainer
             stepDescription="Let's create your profile."
             stepNum={currentStep}
-            stepTitle="Welcome to OWNFORM.ai Chat"
+            stepTitle="Welcome to Pockel Panel by Small Machines"
             onShouldProceed={handleShouldProceed}
             showNextButton={!!(username && usernameAvailable)}
             showBackButton={false}

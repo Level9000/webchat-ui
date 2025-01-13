@@ -11,15 +11,13 @@ export const PocketPanelSVG: FC<PocketPanelSVGProps> = ({
 }) => {
   return (
     <svg
-      version="1.1"
-      id="svg1"
-      width="301.54602"
-      height="301.54602"
-      viewBox="0 0 301.54602 301.54602"
+      width={200 * scale}
+      height={200 * scale}
+      viewBox="0 0 200 200"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <defs id="defs1" />
-
       <image
         width="301.54602"
         height="301.54602"
