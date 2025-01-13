@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { FC } from "react"
-import { ChatbotUISVG } from "../icons/chatbotui-svg"
+import { PocketPanelSVG } from "../icons/pocket-panel-svg"
 
 interface BrandProps {
   theme?: "dark" | "light"
@@ -36,7 +36,7 @@ export const Brand: FC<BrandProps> = ({ theme = "dark" }) => {
       rel="noopener noreferrer"
     >
       <div className="mb-2">
-        <ChatbotUISVG
+        <PocketPanelSVG
           theme={theme === "dark" ? "dark" : "light"}
           scale={0.3}
           border-radius={50}

@@ -1,6 +1,7 @@
 "use client"
 
 import { ChatbotUISVG } from "@/components/icons/chatbotui-svg"
+import { PocketPanelSVG } from "@/components/icons/pocket-panel-svg"
 import { IconArrowRight } from "@tabler/icons-react"
 import { useTheme } from "next-themes"
 import Link from "next/link"
@@ -11,7 +12,10 @@ export default function HomePage() {
   return (
     <div className="flex size-full flex-col items-center justify-center">
       <div>
-        <ChatbotUISVG theme={theme === "dark" ? "dark" : "light"} scale={0.3} />
+        <PocketPanelSVG
+          theme={theme === "dark" ? "dark" : "light"}
+          scale={0.3}
+        />
       </div>
       <Link
         className="mt-4 flex w-[200px] items-center justify-center rounded-md bg-blue-500 p-2 font-semibold"
