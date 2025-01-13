@@ -14,7 +14,7 @@ export default function HomePage() {
       <div>
         <PocketPanelSVG
           theme={theme === "dark" ? "dark" : "light"}
-          scale={0.3}
+          scale={0.1}
         />
       </div>
       <Link
